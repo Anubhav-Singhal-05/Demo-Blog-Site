@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(29, 28, 28);
+    height: 100vh;
+    width: 100vw;
+}
+
+.box{
+    position: absolute;
+    border-radius: 0.75rem;
+}
+
+#box-1, #box-3{
+    background-color: rgb(186, 234, 235);
+}
+
+#box-2{
+    background-color: rgb(169, 197, 240);
+    z-index: 1;
+    height: 36vh;
+    width: 40vw;
+    text-align: center;
+    margin: 32.5vh 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+h1{
+    font-family: 'Salsa', cursive;
+}
+
+p{
+    font-family: 'Oregano', cursive;
+}
+
+button{
+    font-family: 'Oregano', cursive;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(95deg, green, rgb(88, 218, 52));
+    margin: 5% 0 10%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(95deg, rgb(24, 110, 159), rgb(62, 205, 227));
+}
+
+/* MOBILE VIEW */
+@media (max-width: 426px){
+    #box-1{
+        height: 15vw;
+        width: 15vw;
+        margin-top: 24vh;
+        margin-left: 62.5vw;
+    }
+    #box-3{
+        height: 15vw;
+        width: 15vw;
+        margin-top: 60vh;
+        margin-left: 22.5vw;
+    }
+    h1{
+        font-size: 7vw;
+        margin: 15px auto 0;
+    }
+    p{
+        font-size: 4vw;
+        margin: 2px 0;
+    }
+    button{
+        font-size: 3.5vw;
+        padding: 1px 10%;
+    }
+}
+
+
+/* TABLET VIEW */
+@media (min-width: 427px) and (max-width: 769px){
+    #box-1{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 22vh;
+        margin-left: 65.5vw;
+    }
+    #box-3{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 60vh;
+        margin-left: 25vw;
+    }
+    h1{
+        font-size: 9vh;
+        margin-top: 10%;
+    }
+    p{
+        font-size: 5vh;
+        margin: 2px 0;
+    }
+    button{
+        font-size: 4vh;
+        padding: 1% 10%;
+    }
+}
+
+
+/* DESKTOP VIEW */
+@media (min-width: 770px) and (max-width: 1025px){
+    #box-1{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 22vh;
+        margin-left: 65.5vw;
+    }
+    #box-3{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 60vh;
+        margin-left: 25vw;
+    }
+    h1{
+        font-size: 9vh;
+        margin-top: 10%;
+    }
+    p{
+        font-size: 4vh;
+        margin: 2px 0;
+    }
+    button{
+        font-size: 4vh;
+        padding: 1% 10%;
+    }
+}
+
+
+/* BIG DESKTOP VIEW */
+@media (min-width: 1026px){
+    #box-1{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 22vh;
+        margin-left: 65.5vw;
+    }
+    #box-3{
+        height: 10vw;
+        width: 10vw;
+        margin-top: 60vh;
+        margin-left: 25vw;
+    }
+    h1{
+        font-size: 9vh;
+        margin-top: 10%;
+    }
+    p{
+        font-size: 4vh;
+        margin: 2px 0;
+    }
+    button{
+        font-size: 4vh;
+        padding: 1% 10%;
+    }
+}

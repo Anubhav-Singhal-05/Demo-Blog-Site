@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(30deg, rgb(2, 42, 9) 45%, rgb(1, 20, 5) 48%);
+}
+
+form{
+    max-width: 75%;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    margin-top: 50px;
+}
+
+
+
+/* NAVIGATION BAR */
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: rgb(98, 143, 241);
+}
+
+
+
+/* LEFT */
+.left{
+    justify-content: center;
+}
+
+.left ul{
+    list-style: none;
+    display: flex;
+}
+
+.left li{
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Merienda', cursive;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+}
+
+.left a:hover{
+    color: rgb(251, 251, 251);
+}
+
+
+
+/* RIGHT */
+.right{
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    font-family: 'Merriweather', serif;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 2px 0px 0 35px;
+    height: 35px;
+    margin: 8px 20px 0;
+}
+
+.right span{
+    position: absolute;
+    margin-right: 27rem;
+    margin-top: 1.2rem;
+}
+
+.btn{
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    height: 3rem;
+    width: 7rem;
+    margin: auto;
+    margin-right: 2%;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+/* TOP IMAGE */
+.img-top img{
+    width: 100%;
+    height: 300px;
+    opacity: 0.7;
+}
+
+.img-top:hover{
+    cursor: pointer;
+}
+
+/* CREATE POST and FOLLOW BUTTON */
+.btn-1{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1% 0;
+    float: right;
+    box-shadow: 5px 5px 6px black;
+}
+.btn-2{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    background-color: rgb(69, 69, 169);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1% 6.5%;
+    float: right;
+    box-shadow: 5px 5px 6px black;
+}
+
+.btn-2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px black;
+}
+
+.post-btn{
+    height: 5rem;
+}
+
+/* POSTS */
+.post{
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: 5% 5px 5%;
+}
+
+.img{
+    cursor: pointer;
+    height: 5.5rem;
+    width: 11rem;
+    padding: 0 0.5rem 0 2rem;
+}
+
+.img-div{
+    margin: auto 5px;
+}
+
+.post-content h2{
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-family: 'Courgette', cursive;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.views li{
+    padding: 10px 35px;
+}
+
+.views{
+    margin: auto 5px;  
+}
+
+.comment .fa-comment{
+    font-size: 1.3rem;
+    margin-top: 7.5px;
+}
+
+.fa-eye{
+    margin-top: 10px;
+}
+
+.downvote .fa-thumbs-up{
+    rotate: 180deg;
+    margin-top: 5px;
+}
+
+.upvote, .downvote{
+    font-size: 25px;
+    text-align: center;
+}
+
+#division{
+    border: none;
+    border-top: 5px dotted grey;
+    width: 20%;
+    margin: auto;
+}
+
+.upvote span, .downvote span{
+    font-size: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+} 
